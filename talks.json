@@ -1,0 +1,45 @@
+
+[
+  {
+    "title": "The Future of JavaScript",
+    "speakers": ["Jane Doe"],
+    "category": ["JavaScript", "Web Development"],
+    "duration": 60,
+    "description": "A deep dive into the next features of JavaScript and how they will shape the future of web development."
+  },
+  {
+    "title": "Building Scalable APIs with Node.js",
+    "speakers": ["John Smith"],
+    "category": ["Node.js", "Backend"],
+    "duration": 60,
+    "description": "Learn how to build robust and scalable APIs using Node.js and Express."
+  },
+  {
+    "title": "CSS Grid and Flexbox for Modern Layouts",
+    "speakers": ["Emily White"],
+    "category": ["CSS", "Frontend"],
+    "duration": 60,
+    "description": "Master the art of creating complex and responsive layouts with CSS Grid and Flexbox."
+  },
+  {
+    "title": "Introduction to Machine Learning with Python",
+    "speakers": ["David Green", "Sarah Brown"],
+    "category": ["Python", "Machine Learning"],
+    "duration": 60,
+    "description": "An introductory session on the fundamentals of machine learning using Python and popular libraries."
+  },
+  {
+    "title": "State Management in React with Redux",
+    "speakers": ["Michael Black"],
+    "category": ["React", "JavaScript"],
+    "duration": 60,
+    "description": "A comprehensive guide to managing application state in React using the Redux library."
+  },
+  {
+    "title": "DevOps for Beginners",
+    "speakers": ["Chris Blue"],
+    "category": ["DevOps", "CI/CD"],
+    "duration": 60,
+    "description": "Learn the basic principles of DevOps and how to set up a continuous integration and deployment pipeline."
+  }
+]

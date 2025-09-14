@@ -1,0 +1,12 @@
+
+.talk {
+  border-left: 4px solid #0d6efd;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.break {
+  border-left: 4px solid #6c757d;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}

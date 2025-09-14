@@ -1,27 +1,69 @@
-# event-talks-app
+# Tech Talk Day
 
-# Tech Talk Day Website
+This is a simple web application that displays the schedule for a one-day tech talk event.
 
-This is a single-page website for a 1-day event filled with technical talks. The website displays the schedule for the entire day and allows users to search for talks based on category.
+## Description
+
+The application provides a clear and easy-to-read schedule of talks for the "Tech Talk Day" event. Users can view the talk titles, speakers, categories, and descriptions. The application also includes features to filter the schedule by category and time.
 
 ## Features
 
-*   View the full day's schedule with timings.
-*   Search for talks by category.
+*   **View Schedule:** See a full-day schedule of tech talks.
+*   **Search by Category:** Filter the talks by category (e.g., JavaScript, Python).
+*   **Filter by Time:** Filter the talks by their start time.
+*   **Breaks:** The schedule includes breaks and a lunch break.
 
-## Technology Stack
+## Tech Stack
 
-*   **Backend:** Node.js with Express
-*   **Frontend:** HTML, CSS, JavaScript
+*   **Frontend:**
+    *   HTML
+    *   CSS (with Bootstrap)
+    *   JavaScript
+*   **Backend:**
+    *   Node.js
+    *   Express.js
 
-## How to Run
+## Getting Started
 
-1.  Install the dependencies:
+### Prerequisites
+
+*   Node.js and npm installed on your machine.
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/Madhu-712/event-talks-app.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd event-talks-app
+    ```
+3.  Install the dependencies:
     ```bash
     npm install
     ```
-2.  Start the server:
+
+### Usage
+
+1.  Start the server:
     ```bash
-    node server.js
+    npm start
     ```
-3.  Open your browser and navigate to `http://localhost:3000`.
+2.  Open your browser and go to `http://localhost:3000` to view the application.
+
+## Folder Structure
+
+```
+.
+├── public/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+├── server.js
+└── talks.json
+```
