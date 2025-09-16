@@ -14,6 +14,29 @@ This is a single-page website for a 1-day event filled with technical talks. The
 *   **Backend:** Node.js with Express
 *   **Frontend:** HTML, CSS, JavaScript
 
+## MCP Configuration code
+
+{
+  "theme": "Default",
+  
+  "selectedAuthType": "oauth-personal",
+  
+  "mcpServers": {
+  
+       "github": {
+       
+            "httpUrl": "https://api.githubcopilot.com/mcp/",
+            
+            "headers": {
+            
+                "Authorization": "GITHUB_PAT"
+                
+            },
+            
+            "timeout": 5000
+       }
+  }
+}
 ## How to Run
 
 1.  Install the dependencies:
