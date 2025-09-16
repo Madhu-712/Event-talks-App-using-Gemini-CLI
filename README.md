@@ -1,5 +1,7 @@
 # event-talks-app
 
+Scheduling talks based on the category
+
 # Tech Talk Day Website
 
 This is a single-page website for a 1-day event filled with technical talks. The website displays the schedule for the entire day and allows users to search for talks based on category.
